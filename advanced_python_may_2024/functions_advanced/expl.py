@@ -74,11 +74,81 @@
 # different parameters
 
 
-def print_info(name, age):
-    print(name, age)
+# def print_info(name, age):
+#     print(name, age)
+#
+#
+# info = {"name": "John", "age": 18}
+#
+# print(info["name"], info["age"])
+# print(print_info(**info)) # unpacking dictionaries
+#
+# my_dict = {'Peter': 21, 'Test': 18, 'George': 18, 'John': 45}
+#
+# print(sorted(my_dict.items(), key=lambda kvp: (kvp[1], kvp[0])))
+# sorted first by then by
 
+# NESTED FUNCTIONS
 
-info = {"name": "John", "age": 18}
+# def factorial(number):
+#     if not isinstance(number, int) or number < 0:
+#         return f"Sorry, 'number' is incorrect."
+#
+#     def inner_factorial(n):
+#         fact = 1
+#         for i in range(1, n+1):
+#             fact *= i
+#         return fact
+#     return inner_factorial(number)
 
-print(info["name"], info["age"])
-print(print_info(**info)) # unpacking dictionaries 
+# def calculator(operator):
+#     def addition(a, b):
+#         a = 5
+#         b = 6
+#         return a + b
+#
+#     def subtraction(a, b):
+#         return a - b
+#
+#     def multiplication(a, b):
+#         return a * b
+#
+#     def division(a, b):
+#         return a / b
+#
+#     if operator == '+':
+#         return addition
+#     elif operator == '-':
+#         return subtraction
+#     elif operator == '*':
+#         return multiplication
+#     elif operator == '/':
+#         return division
+#
+#
+# operation = calculator('+')
+# result = operation(5, 4)
+# print(result)
+
+# def greet(name):
+#     hello = 'Hello, '
+#
+#     def say_hi():
+#         return hello + name
+#
+#     return say_hi
+#
+#
+# print(greet('John')())
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n * factorial(n - 1)
+#
+# factorial(5)
+# result = 5
+# for i in range(2, 6):
+#     result = result * i
+# print(result)
+
