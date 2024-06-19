@@ -57,9 +57,42 @@
 #
 # print(matrix[-1][0])
 
-matrix = [
-    [[1, 2], [3, 4]],
-    [[5, 6], [7, 8]]
-]
+# matrix = [
+#     [[1, 2], [3, 4]],
+#     [[5, 6], [7, 8]]
+# ]
+#
+# print(matrix[0][1][1])
 
-print(matrix[0][1][1])
+def cookbook(*args):
+    from collections import defaultdict
+
+    recipes_by_cuisine = defaultdict(list)
+
+    for recipe_name, cuisine, ingredients in args:
+        recipes_by_cuisine[cuisine].append((recipe_name, ingredients))
+
+    sorted_cuisines = sorted(recipes_by_cuisine.items(), key=lambda item: (-len(item[1]), item[0]))
+
+    result = []
+
+    for cuisine, recipes in sorted_cuisines:
+        result.append(f"{cuisine} cuisine contains {len(recipes)} recipes:")
+
+        sorted_recipes = sorted(recipes, key=lambda x: x[0])
+
+        for recipe_name, ingredients in sorted_recipes:
+            ingredients_list = ", ".join(ingredients)
+            result.append(f"  * {recipe_name} -> Ingredients: {ingredients_list}")
+
+    return "\n".join(result)
+
+
+# Example usage
+print(cookbook(
+    ("Spaghetti Bolognese", "Italian", ["spaghetti", "tomato sauce", "ground beef"]),
+    ("Margherita Pizza", "Italian", ["pizza dough", "tomato sauce", "mozzarella"]),
+    ("Tiramisu", "Italian", ["ladyfingers", "mascarpone", "coffee"]),
+    ("Croissant", "French", ["flour", "butter", "yeast"]),
+    ("Ratatouille", "French", ["eggplant", "zucchini", "tomatoes"])
+))
