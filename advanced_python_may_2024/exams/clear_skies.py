@@ -1,6 +1,6 @@
 def print_matrix(matrix):
     for row in matrix:
-        print(f"{"".join(row)}")
+        print(f'{"".join(row)}')
 
 
 direction_mapper = {
