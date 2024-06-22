@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="187f8e1f-d467-4db5-b09b-e48c2e81d6e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/advanced_python_may_2024/exams/clear_skies.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_python_may_2024/exams/clear_skies.py" afterDir="false" />
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +40,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< Updated upstream
     "Python.bessy.executor": "Run",
     "Python.boarding_passengers.executor": "Run",
     "Python.expl.executor": "Run",
     "Python.rapid_courier.executor": "Run",
+=======
+    "Python.2x2_squares_in_matrix.executor": "Run",
+    "Python.age_assignment.executor": "Run",
+    "Python.bitcoint_price_with_api_key.executor": "Run",
+    "Python.cheese_showcase.executor": "Run",
+    "Python.chicken_snacks.executor": "Run",
+    "Python.diagonal_difference.executor": "Run",
+    "Python.expl.executor": "Run",
+    "Python.fill_the_box.executor": "Run",
+    "Python.filtered_odd_even.executor": "Run",
+    "Python.func_executor.executor": "Run",
+    "Python.grocery.executor": "Run",
+    "Python.kwargs_length.executor": "Run",
+    "Python.math_operations.executor": "Run",
+    "Python.maximal_sum.executor": "Run",
+    "Python.operains.executor": "Run",
+    "Python.recangle.executor": "Run",
+    "Python.recursion_palindrome.executor": "Run",
+    "Python.recursive_power.executor": "Run",
+>>>>>>> Stashed changes
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/SoftUni/Fundamentals_python_january_2024",
@@ -49,8 +77,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.bessy">
     <configuration name="bessy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.chicken_snacks">
+    <configuration name="2x2_squares_in_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="SoftUni-Software-Engineering" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,12 +92,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/exams" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/exams/bessy.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise/2x2_squares_in_matrix.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +114,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="boarding_passengers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="bitcoint_price_with_api_key" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="SoftUni-Software-Engineering" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,12 +127,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/exams" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/small_projects" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/exams/boarding_passengers.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small_projects/bitcoint_price_with_api_key.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +149,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="expl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="chicken_snacks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="SoftUni-Software-Engineering" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,12 +162,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_lists_labs" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/exams" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_lists_labs/expl.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/exams/chicken_snacks.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +184,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="rapid_courier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="diagonal_difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="SoftUni-Software-Engineering" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,12 +197,43 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/exams" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/exams/rapid_courier.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise/diagonal_difference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maximal_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni-Software-Engineering" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise/maximal_sum.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,10 +244,18 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Python.bessy" />
         <item itemvalue="Python.boarding_passengers" />
         <item itemvalue="Python.rapid_courier" />
         <item itemvalue="Python.expl" />
+=======
+        <item itemvalue="Python.chicken_snacks" />
+        <item itemvalue="Python.maximal_sum" />
+        <item itemvalue="Python.2x2_squares_in_matrix" />
+        <item itemvalue="Python.bitcoint_price_with_api_key" />
+        <item itemvalue="Python.diagonal_difference" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +276,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716448068595</updated>
       <workItem from="1716448069750" duration="216000" />
+<<<<<<< Updated upstream
       <workItem from="1717865633327" duration="613000" />
       <workItem from="1718005146750" duration="261000" />
       <workItem from="1718444717102" duration="1000" />
@@ -178,17 +287,57 @@
       <workItem from="1719052009656" duration="8000" />
       <workItem from="1719052749881" duration="10000" />
       <workItem from="1719052797258" duration="148000" />
+<<<<<<< Updated upstream
       <workItem from="1719052985228" duration="9675000" />
+=======
+      <workItem from="1719052985228" duration="8062000" />
+=======
+      <workItem from="1717821831972" duration="15419000" />
+      <workItem from="1717934089160" duration="64431000" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advanced_python_may_2024/exams/chicken_snacks.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< Updated upstream
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$bessy.coverage" NAME="bessy Coverage Results" MODIFIED="1719062150234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/exams" />
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$boarding_passengers.coverage" NAME="boarding_passengers Coverage Results" MODIFIED="1719060354219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/exams" />
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$rapid_courier.coverage" NAME="rapid_courier Coverage Results" MODIFIED="1719059687992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/exams" />
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$expl.coverage" NAME="expl Coverage Results" MODIFIED="1718698555876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_lists_labs" />
+=======
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$grocery.coverage" NAME="grocery Coverage Results" MODIFIED="1718223273249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$recursion_palindrome.coverage" NAME="recursion_palindrome Coverage Results" MODIFIED="1718343164323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$cheese_showcase.coverage" NAME="cheese_showcase Coverage Results" MODIFIED="1717825173811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advanced" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$2x2_squares_in_matrix.coverage" NAME="2x2_squares_in_matrix Coverage Results" MODIFIED="1718873301436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$operains.coverage" NAME="operains Coverage Results" MODIFIED="1718007536036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advanced" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$fill_the_box.coverage" NAME="fill_the_box Coverage Results" MODIFIED="1718344760915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$diagonal_difference.coverage" NAME="diagonal_difference Coverage Results" MODIFIED="1718796451657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$filtered_odd_even.coverage" NAME="filtered_odd_even Coverage Results" MODIFIED="1718049267745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$func_executor.coverage" NAME="func_executor Coverage Results" MODIFIED="1718191469548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$math_operations.coverage" NAME="math_operations Coverage Results" MODIFIED="1718447867795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$maximal_sum.coverage" NAME="maximal_sum Coverage Results" MODIFIED="1718957071747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/multidimensional_list_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$age_assignment.coverage" NAME="age_assignment Coverage Results" MODIFIED="1718341941880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$expl.coverage" NAME="expl Coverage Results" MODIFIED="1718003604614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advanced" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$recangle.coverage" NAME="recangle Coverage Results" MODIFIED="1717877938468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advanced" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$recursive_power.coverage" NAME="recursive_power Coverage Results" MODIFIED="1718006000417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advanced" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$kwargs_length.coverage" NAME="kwargs_length Coverage Results" MODIFIED="1718008879538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/functions_advance_exercise" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$bitcoint_price_with_api_key.coverage" NAME="bitcoint_price_with_api_key Coverage Results" MODIFIED="1718832044556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/small_projects" />
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$chicken_snacks.coverage" NAME="chicken_snacks Coverage Results" MODIFIED="1719001693372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced_python_may_2024/exams" />
+>>>>>>> Stashed changes
   </component>
 </project>
