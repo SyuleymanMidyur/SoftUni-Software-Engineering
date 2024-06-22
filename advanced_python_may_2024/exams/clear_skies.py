@@ -40,4 +40,4 @@ while enemy_count:
             print(f"Mission accomplished, you neutralized the aerial threat!")
             print_matrix(matrix)
             exit()
-            
+
