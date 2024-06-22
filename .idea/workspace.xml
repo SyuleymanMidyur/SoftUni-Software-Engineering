@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="187f8e1f-d467-4db5-b09b-e48c2e81d6e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_python_may_2024/exams/clear_skies.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_python_may_2024/exams/clear_skies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,7 @@
       <workItem from="1719052009656" duration="8000" />
       <workItem from="1719052749881" duration="10000" />
       <workItem from="1719052797258" duration="148000" />
-      <workItem from="1719052985228" duration="8062000" />
+      <workItem from="1719052985228" duration="9675000" />
     </task>
     <servers />
   </component>
