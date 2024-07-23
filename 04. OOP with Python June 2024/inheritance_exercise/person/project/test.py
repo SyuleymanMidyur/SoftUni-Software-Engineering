@@ -5,4 +5,4 @@ person = Person("Peter", 25)
 child = Child("Peter Junior", 5)
 print(person.name)
 print(person.age)
-print(child.__class__.__bases__[0].__name__)
+print(child.__class__.__bases__[0].__name__) # printing the name of the inheritanced class
