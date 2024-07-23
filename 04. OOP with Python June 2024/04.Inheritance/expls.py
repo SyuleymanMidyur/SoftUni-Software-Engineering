@@ -174,32 +174,75 @@
 # print(CTO.mro)
 
 
-class Animal:
-    def __init__(self, name):
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def eat(self):
+#         print(f'{self.name} eats')
+#
+#
+# class Mammal(Animal):
+#     def walk(self):
+#         print(f'{self.name} walks')
+#
+#
+# class Dog(Mammal):
+#     def bark(self):
+#         print(f'{self.name} barks')
+#
+#
+# class Labrador(Dog):
+#     def petch(self):
+#         print(f'{self.name} petchs')
+#
+#
+# dog = Labrador('Buddy') # class Labrador nasledqva vs ostanali classes
+# dog.bark()
+# dog.petch()
+# dog.bark()
+# dog.eat()
+# dog.walk()
+
+
+# MRO
+
+# class A:
+#     pass
+#
+#
+# class B(A):
+#     pass
+#
+#
+# class C(A):
+#     pass
+#
+#
+# class D(B, C):
+#     pass
+#
+#
+# print(D.__mro__) # showing the way of inheritance
+
+# MIXIN
+
+class PrintableMixin:
+    def print_info(self):
+        print(f'Object of class {type(self).__name__}')
+        for attr, value in self.__dict__.items():
+            print(f'{attr}: {value}')
+
+
+class Person(PrintableMixin):
+    def __init__(self, name, age):
         self.name = name
+        self.age = age
 
-    def eat(self):
-        print(f'{self.name} eats')
-
-
-class Mammal(Animal):
-    def walk(self):
-        print(f'{self.name} walks')
+    def say_hello(self):
+        print(f'Hello, my name is  {self.name} and I am {self.age} years old.')
 
 
-class Dog(Mammal):
-    def bark(self):
-        print(f'{self.name} barks')
-
-
-class Labrador(Dog):
-    def petch(self):
-        print(f'{self.name} petchs')
-
-
-dog = Labrador('Buddy') # class Labrador nasledqva vs ostanali classes
-dog.bark()
-dog.petch()
-dog.bark()
-dog.eat()
-dog.walk()
+p = Person('John', 23)
+p.say_hello()
+p.print_info()
