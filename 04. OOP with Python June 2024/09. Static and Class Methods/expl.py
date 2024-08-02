@@ -5,3 +5,5 @@ class Person:
     def change_name(self, new_name):
         self.name = new_name
         
+    def test(self):
+        pass
