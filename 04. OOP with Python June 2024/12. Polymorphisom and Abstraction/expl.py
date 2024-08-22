@@ -41,7 +41,11 @@ class Person:
     def __add__(self, other):
         return self.name + other.name
 
+    def __lt__(self, other):
+        return self.age < other.age
+
 
 p = Person('John', 25)
 person2 = Person('Cinio', 35)
 print(p + person2)  # print(p.__add__(p2))
+print(p > person2)
