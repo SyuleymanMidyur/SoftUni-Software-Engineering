@@ -1,0 +1,16 @@
+body {
+    background: rgb(254, 254, 252)
+}
+
+.header {
+    text-decoration: underline;
+}
+
+#header {
+    background: chocolate;
+    color: #000;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
