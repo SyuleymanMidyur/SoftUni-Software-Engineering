@@ -78,3 +78,53 @@ INSERT INTO triangles(side, height) VALUES
 	(8, 12),
 	(3, 5);
 
+-- Resolving issues 
+
+/**************** 1 ****************/
+SELECT
+    title
+FROM books
+WHERE LEFT(title, 3) = 'The'
+ORDER BY id
+
+/**************** 2 ****************/
+SELECT
+    replace(title, 'The', '***')
+FROM books
+WHERE LEFT(title, 3) = 'The'
+ORDER BY id
+
+/**************** 3 ****************/
+SELECT
+    id,
+    side * height / 2 as area
+FROM triangles
+ORDER BY id
+
+/**************** 4 ****************/
+SELECT
+    title,
+    trunc(cost, 3) as modified_price
+FROM books
+ORDER BY id
+;
+
+/**************** 5 ****************/
+SELECT
+    first_name,
+    last_name,
+    date_part('year', born) as year
+FROM authors
+
+/**************** 6 ****************/
+SELECT
+    last_name,
+    to_char(born, 'DD (Dy) Mon YYYY')
+FROM authors
+
+/**************** 7 ****************/
+SELECT
+    title
+FROM books
+WHERE title LIKE '%Harry Potter%'
+ORDER BY id
