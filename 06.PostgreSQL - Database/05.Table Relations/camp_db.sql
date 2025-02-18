@@ -73,3 +73,56 @@ insert into routes(start_point,end_point,leader_id,route_time) values
 ('Hotel Malyovitsa', 'Malyovitsa Hut', 3, '00:40:00'),
 ('Ribni Ezera Hut', 'Rila Monastery', 3, '06:00:00'),
 ('Borovets', 'Musala Peak', 4, '03:30:00');
+
+-- Resolving issues
+
+*****************		1		*****************
+
+CREATE TABLE mountains(
+    id SERIAL PRIMARY KEY,
+    name varchar(50)
+);
+
+CREATE TABLE peaks(
+    id SERIAL PRIMARY KEY,
+    name varchar(50),
+    mountain_id int,
+    CONSTRAINT fk_peaks_mountains FOREIGN KEY (mountain_id)REFERENCES mountains(id)
+);
+
+*****************		2		*****************
+
+SELECT
+    v.driver_id,
+    v.vehicle_type,
+    concat(c.first_name, ' ', c.last_name) as driver_name
+FROM vehicles as v
+    join campers as c on c.id = v.driver_id
+
+*****************		3		*****************
+
+SELECT
+    r.start_point,
+    r.end_point,
+    r.leader_id,
+    concat(c.first_name, ' ', c.last_name) as leader_name
+FROM routes as r
+    join campers as c ON r.leader_id = c.id
+
+*****************		4		*****************
+
+CREATE TABLE mountains(
+    id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name varchar(50)
+);
+
+CREATE TABLE peaks(
+    id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name varchar(50),
+    mountain_id int,
+    CONSTRAINT fk_mountain_id
+        FOREIGN KEY (mountain_id)
+            REFERENCES mountains(id)
+                ON DELETE CASCADE
+)
+;
